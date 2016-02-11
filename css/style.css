@@ -144,7 +144,8 @@ body {
 
 .container {
   position: relative;
-  width: 60em; /* 960px / 16px = 60em */
+  width: 58.75em; /* 960px / 16px = 60em */
+  padding: 0 .625em;
   margin: 0 auto;
 }
 
@@ -237,14 +238,14 @@ body {
   padding-bottom: 2em;
 }
 
-.intro-type-block {
-  display: block;
-  background: url("../images/IntroTypeBlock.png") no-repeat;
-  width: 510px;
-  height: 100px;
-  text-indent: -9999px;3
+.section01 h2 {
+  font-family: 'ChunkFive', "Arial Black", Helvetica, sans-serif;
+  font-weight: normal;
 }
 
+.section01 h2 a {
+  color: #333;
+}
 
 /* SECTION 02 */
 .section02 {
@@ -287,6 +288,10 @@ body {
   text-transform: none;
   font-size: .6875em; /* 11px / 16px = .6875em */
   line-height: 1.63em; /* 18px / 11px = 1.63em */
+}
+
+.footer ul li ul li a:hover {
+  text-decoration: underline;
 }
 
 .footer li address {
@@ -357,4 +362,17 @@ body {
     float: none;
   }
 
+}
+
+
+
+/* @FONT-FACE */
+@font-face {
+  font-family: 'ChunkFive';
+  src: url('../fonts/chunk-five.eot');
+  src: url('../fonts/chunk-five.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/chunk-five.woff2') format('woff2'),
+       url('../fonts/chunk-five.woff') format('woff'),
+       url('../fonts/chunk-five.ttf') format('truetype'),
+       url('../fonts/chunk-five.svg#chunkfiveregular') format('svg');
 }
