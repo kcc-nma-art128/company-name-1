@@ -149,6 +149,35 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  font-family: 'ChunkFive', "Arial Black", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2.625em; /* 42px */
+  line-height: 1.19em; /* 50px */
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.5em; /* 24px */
+  line-height: 1.25em; /* 30px */
+  letter-spacing: -.025em;
+}
+
+h3 {
+  font-size: 1.3125em; /* 21px */
+  line-height: 1.143em; /* 24px */
+  letter-spacing: -.04em;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: .6875em; /* 11px */
+  line-height: 1.27em; /* 14px */
+  color: #615c5c;
+  text-transform: uppercase;
+}
+
+
 /* HEADER */
 .header {
   height: 155px;
@@ -241,6 +270,8 @@ body {
 .section01 h2 {
   font-family: 'ChunkFive', "Arial Black", Helvetica, sans-serif;
   font-weight: normal;
+  font-size: 2.625em; /* 42px */
+  line-height: 1.19em; /* 50px */
 }
 
 .section01 h2 a {
