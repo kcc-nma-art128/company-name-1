@@ -190,6 +190,17 @@ h4 {
   margin: 0 0 0 1.06%;
 }
 
+.section02 .col {
+  width: 23.4%;
+  float: left;
+  margin-right: 14.9%;
+}
+
+.section02 .col:last-of-type {
+  margin-right: 0;
+}
+
+
 /* HEADER */
 .header {
   height: 155px;
