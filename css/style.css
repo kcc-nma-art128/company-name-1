@@ -177,6 +177,18 @@ h4 {
   text-transform: uppercase;
 }
 
+/* LAYOUT/GRID */
+.section01 .col-1 {
+  width: 61.7%;
+  float: left;
+  margin: 0 1.06% 0 0;
+}
+
+.section01 .col-2 {
+  width: 36.17%;
+  float: left;
+  margin: 0 0 0 1.06%;
+}
 
 /* HEADER */
 .header {
