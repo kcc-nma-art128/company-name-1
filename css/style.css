@@ -311,6 +311,15 @@ h4 {
   color: #333;
 }
 
+.button-big {
+  display: block;
+  background: url('../images/button-big.gif') no-repeat;
+  width: 237px;
+  height: 0;
+  padding-top: 59px;
+  overflow: hidden;
+}
+
 /* SECTION 02 */
 .section02 {
   background: #fff;
