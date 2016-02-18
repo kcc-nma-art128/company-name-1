@@ -385,6 +385,11 @@ h4 {
     width: 92%;
   }
 
+  .section02 .col {
+    width: 30%;
+    margin-right: 5%;
+  }
+
 }
 
 /* MOBILE */
@@ -427,10 +432,15 @@ h4 {
   }
 
   .section01 .col-1,
-  .section01 .col-2 {
+  .section01 .col-2,
+  .section02 .col {
     width: 96%;
     float: none;
     margin: 1em 2%;
+  }
+
+  .section02 .col {
+    margin-bottom: 3em;
   }
 
 }
