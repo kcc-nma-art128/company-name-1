@@ -324,6 +324,20 @@ h4 {
   background: url('../images/button-big.png') no-repeat 0 -59px;
 }
 
+.button-small {
+  display: block;
+  background: url('../images/button-small.png') no-repeat 0 0;
+  width: 128px;
+  height: 0;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.button-small:hover {
+  background: url('../images/button-small.png') no-repeat 0 -30px;
+}
+
+
 /* SECTION 02 */
 .section02 {
   background: #fff;
