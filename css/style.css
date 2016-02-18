@@ -186,7 +186,7 @@ h4 {
 
 .section01 .col-2 {
   width: 36.17%;
-  float: left;
+  float: right;
   margin: 0 0 0 1.06%;
 }
 
@@ -424,6 +424,13 @@ h4 {
 
   .main-nav li {
     float: none;
+  }
+
+  .section01 .col-1,
+  .section01 .col-2 {
+    width: 96%;
+    float: none;
+    margin: 1em 2%;
   }
 
 }
