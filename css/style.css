@@ -250,6 +250,17 @@ h4 {
   float: left;
 }
 
+.utility-nav li:after{
+  content: "|";
+  color: #fff;
+  margin-left: .8em;
+}
+
+.utility-nav li:last-of-type:after{
+  content: "";
+  margin: 0;
+}
+
 .utility-nav li a {
   color: #fff;
   font-size: .75em;
