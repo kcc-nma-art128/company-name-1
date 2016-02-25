@@ -309,6 +309,7 @@ h4 {
   background: #ccc;
   padding-top: 2em;
   padding-bottom: 2em;
+  border-bottom: 1px solid #7a7a7a;
 }
 
 .section01 h2 {
@@ -483,6 +484,11 @@ main {
   font-size: .75em; /* 12px / 16px = .75em */
   line-height: 1.6em; /* 20px / 12 = 1.6em */
   margin-bottom: 0;
+}
+
+.quote span {
+  display: block;
+  text-align: right;
 }
 
 
