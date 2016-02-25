@@ -594,7 +594,9 @@ main {
   .section01 .col-2,
   .section02 .col,
   .footer .col,
-  .footer .col:last-of-type {
+  .footer .col:last-of-type,
+  .article,
+  .sidebar {
     width: 96%;
     float: none;
     margin: 1em 2%;
