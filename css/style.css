@@ -303,7 +303,8 @@ h4 {
   background: transparent;
 }
 
-.nav-toggle {
+a.nav-toggle {
+  display: none;
   box-sizing: border-box;
   width: 12px;
   height: 16px;
@@ -642,12 +643,21 @@ main {
     display: none;
   }
 
+  .main-nav {
+    min-height: 60px;
+  }
+
   .main-nav ul {
     padding: .8em 0;
+    display: none;
   }
 
   .main-nav li {
     float: none;
+  }
+
+  a.nav-toggle {
+    display: block;
   }
 
   .section01 .col-1,
