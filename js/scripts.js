@@ -4,7 +4,7 @@ var $window = $(window);
 var mobileBreakpoint = 767;
 
 $navToggle.on('click', function() {
-  $mainNavUl.toggle();
+  $mainNavUl.slideToggle();
   $navToggle.toggleClass('active');
 });
 
