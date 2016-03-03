@@ -336,6 +336,18 @@ a.nav-toggle:hover {
   background: #fff;
 }
 
+.nav-toggle.active:before {
+  border: 0;
+  top: 12px;
+  left: 0;
+  height: 4px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+.nav-toggle.active:after {
+  transform: rotate(-45deg);
+}
+
 
 /* SECTION 01 */
 .section01 {
