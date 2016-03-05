@@ -9,8 +9,8 @@ $navToggle.on('click', function() {
 });
 
 $window.on('resize', function() {
-  if ($window.width() > mobileBreakpoint) {
-    $mainNavUl.show();
-    $navToggle.addClass('active');
+  if ($window.width() > mobileBreakpoint && $mainNavUl.is(':hidden')) {
+    $mainNavUl.removeAttr('style');
+    $navToggle.removeClass('active');
   }
 });
